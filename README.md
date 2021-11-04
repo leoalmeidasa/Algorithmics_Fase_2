@@ -1,5 +1,12 @@
 # AlgorithmsRubyGem
 
+
+![GitHub repo size](https://img.shields.io/github/repo-size/leoalmeidasa/Algorithms_Fase_2?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/leoalmeidasa/Algorithms_Fase_2?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/leoalmeidasa/Algorithms_Fase_2?style=for-the-badge)
+![Bitbucket open issues](https://img.shields.io/bitbucket/issues/leoalmeidasa/Algorithms_Fase_2?style=for-the-badge)
+![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/leoalmeidasa/Algorithms_Fase_2?style=for-the-badge)
+
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/algorithms_ruby_gem`. To experiment with that code, run `bin/console` for an interactive prompt.
 
 TODO: Delete this and the text above, and describe your gem
