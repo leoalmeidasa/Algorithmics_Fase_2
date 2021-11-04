@@ -18,7 +18,7 @@ def fibMonaccianSearch(arr, x, n)
   # while there are elements to be inspected.
   # Note that we compare arr[fibMm2] with x.
   # When fibM becomes 1, fibMm2 becomes 0
-  while (fibM > 1)
+  while fibM > 1
 
     # Check if fibMm2 is a valid location
     array = [offset+fibMMm2, n-1]
@@ -27,7 +27,7 @@ def fibMonaccianSearch(arr, x, n)
     # If x is greater than the value at
     # index fibMm2, cut the subarray array
     # from offset to i
-    if (arr[i] < x)
+    if arr[i] < x
       fibM = fibMMm1
       fibMMm1 = fibMMm2
       fibMMm2 = fibM - fibMMm1
@@ -36,7 +36,7 @@ def fibMonaccianSearch(arr, x, n)
     # If x is less than the value at
     # index fibMm2, cut the subarray
     # after i+1
-    elsif (arr[i] > x)
+    elsif arr[i] > x
       fibM = fibMMm2
       fibMMm1 = fibMMm1 - fibMMm2
       fibMMm2 = fibM - fibMMm1
@@ -47,11 +47,11 @@ def fibMonaccianSearch(arr, x, n)
     end
   end
     # comparing the last element with x */
-    if(fibMMm1 and arr[n-1] == x)
+    if fibMMm1 and arr[n - 1] == x
       return n-1
     end
     # element not found. return -1
-    return -1
+  -1
 end
 
     # Driver Code
